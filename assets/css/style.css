@@ -1,0 +1,130 @@
+body{
+    background: #819ca9;
+}
+
+.navbar {
+    background: #29434e;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.navbar .container{
+    height: 100%;
+}
+.navbar-brand {
+    background: #4db6ac;
+    height: 100%;
+    border-radius: 0px 0px 10px 10px;
+    background-image: linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -o-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -moz-linear-gradient(bottom, #4db6ac 0%, #82e9de  100%);
+    background-image: -webkit-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -ms-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+}
+
+.navbar-brand h1 {
+    padding: 10px 15px 5px 15px;
+    color: #ffffff;
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-top: 5px solid #29434e;
+    padding-top: 10px;
+}
+
+.navbar .active{
+    border-top: 5px solid #4db6ac;
+}
+
+section.main {
+    background: #29434e;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.content {
+    padding: 15px;
+}
+
+hr {
+    border:1px solid #4db6ac;
+}
+
+#profile_image {
+    padding: 0px 15px 15px 0px;
+    width: 30%
+}
+
+@media screen and (max-width: 992px){
+    #profile_image{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #profile_image{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #profile_image{
+        width: 100%;
+    }
+}
+
+.main a {
+    color: #4db6ac;
+    font-weight: bold;
+}
+
+.portfolio-image img{
+    width: 100%
+}
+
+.portfolio-label {
+    background-color:  #4db6ac;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 25%;
+    right: 30px;
+    left: 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -o-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -moz-linear-gradient(bottom, #4db6ac 0%, #82e9de  100%);
+    background-image: -webkit-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -ms-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+}
+
+form .row {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #4db6ac;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 18px;
+    border-radius: 10px;
+    background-image: linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -o-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -moz-linear-gradient(bottom, #4db6ac 0%, #82e9de  100%);
+    background-image: -webkit-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+    background-image: -ms-linear-gradient(bottom, #4db6ac 0%, #82e9de 100%);
+}
+
+footer {
+    background: #29434e;
+    color: #ffffff;
+    margin-top: 100px;
+    padding: 20px 30px 10px 30px;
+    border-top: 5px ridge #4db6ac;
+}
